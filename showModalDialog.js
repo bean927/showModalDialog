@@ -31,6 +31,9 @@
             e.preventDefault();
             dialog.close();
         });
+        document.getElementById('dialog-body').contentWindow.close = function() {
+            dialog.close();
+        }
         dialog.showModal();
         //if using yield
         if(caller.indexOf('yield') >= 0) {
