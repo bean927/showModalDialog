@@ -51,7 +51,7 @@ In order to close the dialog from inside of it, invoke `parent.document.getEleme
 Demo
 ----
 
-[Here is a live demo](http://niutech.github.com/showModalDialog/demo.html). Works best in Google Chrome 37+. The *Enable Experimental JavaScript* flag is only required for the yield method to work.
+[Here is a live demo](http://bean927.github.com/showModalDialog/demo.html). Works best in Google Chrome 37+. The *Enable Experimental JavaScript* flag is only required for the yield method to work.
 
 License
 -------
